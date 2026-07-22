@@ -1,0 +1,19 @@
+{
+  "name": "playwright-cucumber-bdd-framework",
+  "version": "1.0.0",
+  "description": "Playwright + Cucumber (BDD) test automation framework using TypeScript",
+  "private": true,
+  "scripts": {
+    "test": "cucumber-js --config config/cucumber.js",
+    "test:headed": "cross-env HEADLESS=false cucumber-js --config config/cucumber.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.10",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

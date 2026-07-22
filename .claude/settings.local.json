@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx playwright *)",
+      "Bash(npm test *)",
+      "Bash(node -e ' *)",
+      "Bash(node *)",
+      "Bash(npx cucumber-js *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Read(//tmp/**)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}
