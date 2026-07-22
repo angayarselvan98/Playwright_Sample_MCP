@@ -5,12 +5,19 @@
   "private": true,
   "scripts": {
     "test": "cucumber-js --config config/cucumber.js",
-    "test:headed": "cross-env HEADLESS=false cucumber-js --config config/cucumber.js"
+    "test:headed": "cross-env HEADLESS=false cucumber-js --config config/cucumber.js",
+    "report:generate": "allure generate allure-results --clean -o allure-report",
+    "report:open": "allure open allure-report",
+    "report": "npm run report:generate && npm run report:open",
+    "test:report": "npm run test; npm run report"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^10.9.0",
     "@playwright/test": "^1.47.0",
     "@types/node": "^20.14.10",
+    "allure-commandline": "^2.43.0",
+    "allure-cucumberjs": "^3.10.2",
+    "allure-playwright": "^3.10.2",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.5",
     "ts-node": "^10.9.2",

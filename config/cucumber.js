@@ -6,7 +6,11 @@ const config = {
     'progress-bar',
     'html:reports/cucumber-report.html',
     'json:reports/cucumber-report.json',
+    'allure-cucumberjs/reporter',
   ],
+  formatOptions: {
+    resultsDir: 'allure-results',
+  },
 };
 
 module.exports = {

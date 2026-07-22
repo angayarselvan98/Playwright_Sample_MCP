@@ -17,3 +17,4 @@ Feature: Login
   Scenario: Login fails with invalid credentials
     When I log in with invalid credentials
     Then I should see the invalid credentials error message
+    
