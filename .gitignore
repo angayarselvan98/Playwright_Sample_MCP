@@ -3,3 +3,6 @@ dist/
 reports/
 .env
 *.log
+/allure-report
+/allure-results
+
