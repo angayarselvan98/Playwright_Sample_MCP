@@ -12,7 +12,9 @@
       "Bash(npm install *)",
       "Bash(npm run *)",
       "Bash(tee /tmp/test_run.log)",
-      "Bash(xargs -I{} sh -c 'echo \"== {} ==\"; grep -o \"\\\\\"name\\\\\":\\\\\"[^\\\\\"]*\\\\\"\\\\|\\\\\"status\\\\\":\\\\\"[^\\\\\"]*\\\\\"\" {} | head -4')"
+      "Bash(xargs -I{} sh -c 'echo \"== {} ==\"; grep -o \"\\\\\"name\\\\\":\\\\\"[^\\\\\"]*\\\\\"\\\\|\\\\\"status\\\\\":\\\\\"[^\\\\\"]*\\\\\"\" {} | head -4')",
+      "Bash(rm -rf allure-report)",
+      "Bash(mkdir allure-report *)"
     ],
     "additionalDirectories": [
       "/tmp"
