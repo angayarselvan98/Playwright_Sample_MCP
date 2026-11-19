@@ -3,6 +3,7 @@ import { InventoryLocators } from '../locators/inventory.locators';
 
 export class InventoryPage {
   constructor(private readonly page: Page) {}
+  
 
   async getTitle(): Promise<string> {
     return (await this.page.textContent(InventoryLocators.pageTitle)) ?? '';
