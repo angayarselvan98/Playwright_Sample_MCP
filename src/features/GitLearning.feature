@@ -11,3 +11,12 @@ Feature: Inventory Page
 
   Scenario Outline: Sort products by <option>
     When Mofied on gitlearning for megring
+    Then Modified for upseatrem branch
+    Then modifued again
+    Then modificied again
+
+  Scenario Outline: Sort products by <option>
+    When Mofied on gitlearning for megring
+    Then Modified for upseatrem branch
+    Then modifued again
+    Then modificied again
