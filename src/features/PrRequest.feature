@@ -8,3 +8,4 @@ Feature: Product Detail Page
 
   Scenario: Navigate to a product detail page and back to the inventory page
     When PR Request file
+    Then This is modified based on comment from TL
