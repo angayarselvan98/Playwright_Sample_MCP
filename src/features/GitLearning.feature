@@ -21,3 +21,4 @@ Feature: Inventory Page
     Then modifued again
     Then modificied again
     Then Main branch direcet push for checking
+    Then Main checking after branch protection
