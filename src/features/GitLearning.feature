@@ -20,3 +20,4 @@ Feature: Inventory Page
     Then Modified for upseatrem branch
     Then modifued again
     Then modificied again
+    Then Main branch direcet push for checking
